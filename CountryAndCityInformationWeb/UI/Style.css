@@ -1,0 +1,145 @@
+﻿*
+{
+    margin:0; 
+    padding:0;
+}
+body
+{
+}
+
+.wrapper
+{
+    width: 960px;
+    margin: 0 auto;
+    background: lightblue;
+  
+}
+
+header
+{
+    width: 960px;
+}
+
+    header h1
+    {
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+        background: blue;
+        color: white;
+        padding:10px 0;
+    }
+nav {
+    width:960px;
+}
+    nav ul {
+
+    }
+        nav ul li {
+            display:inline;
+        }
+        nav ul li a{
+            width:238px;
+            display:inline-block;
+            float:left;
+            background:cornflowerblue;
+            border:1px solid black;
+            text-align:center;
+            text-decoration:none;
+            padding:10px 0;
+            color:white;
+            font-weight:bold;
+            text-transform:uppercase;
+
+        }
+        nav ul li a:hover{
+            color:cornflowerblue;
+            background:white;
+
+        }
+
+.cotainer
+{
+    width: 960px;
+}
+
+.content1
+{
+    width: 908px;
+    border: 1px solid black;
+    padding: 10px;
+    padding-left: 40px;
+    padding-top:50px;
+}
+
+    .content1 fieldset
+    {
+        width: 450px;
+        border: 1px solid blue;
+        padding: 20px;
+    }
+
+.content2
+{
+    width: 938px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.home
+{
+    width:960px;
+}
+.home ul li {
+            display:inline;
+        }
+        .home ul li a{
+            width:478px;
+            display:inline-block;
+            float:left;
+            background:cornflowerblue;
+            border:1px solid black;
+            text-align:center;
+            text-decoration:none;
+            padding:120px 0;
+            color:white;
+            font-weight:bold;
+            font-size:20px;
+            text-transform:uppercase;
+
+        }
+        .home ul li a:hover{
+            color:yellow;
+            background:#3399FF;
+
+        }
+label.error
+{
+    color:red;
+}
+
+footer 
+{
+    width:958px;
+    clear:both;
+    background:cornflowerblue;
+    border:1px solid black;
+    text-align:center;
+    padding:12px 0;
+    
+            
+}
+
+    footer a
+    {
+       text-decoration:none;
+       color:white;
+    font-weight:bold;
+    font-size:20px;
+    text-transform:uppercase; 
+    }
+           
+    footer a:hover
+    {
+         color:cornflowerblue;
+            background:white;
+    }
